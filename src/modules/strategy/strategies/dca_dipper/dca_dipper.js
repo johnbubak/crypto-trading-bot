@@ -1,3 +1,11 @@
+/*
+Get last 5 Minuten price
+1. 
+Set interval to 1m
+// Add var last_prices to emptySignal
+emptySignal.last_prices = []
+ */
+
 const SignalResult = require('../../dict/signal_result');
 
 module.exports = class DcaDipper {
